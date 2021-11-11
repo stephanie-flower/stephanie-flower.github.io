@@ -1,4 +1,74 @@
 
+body {
+    padding-top: 2%;
+    padding-left: 30%;
+}
+
 .std-text {
     font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+
+.demo-box {
+    padding: 20px;
+    margin: 20px;
+    border: solid 1px gray;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+}
+
+.checkbox {
+    cursor: pointer;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+}
+
+.checkbox:hover{
+    background-color: rgb(220,231,247);
+}
+
+.step {
+    padding: 14px;
+}
+
+.help-icons {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    border-right: solid 1px gray;
+}
+
+.help-icons-img img{
+    width: 1.5vw;
+    height: auto;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.tooltip {
+    font-family: 'Source Sans Pro', sans-serif;
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 10px ;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+}
+
+.help-icons-img:hover .tooltip {
+    visibility: visible;
+}
+
+.helpful-links {
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 10px;
+    margin-top: 30px;
+    background-color: lightgray;
+    display: none;
 }
