@@ -1,0 +1,4 @@
+AuthType Basic 
+AuthName "Steph's protected testing page" 
+AuthUserFile .htpasswd 
+require valid-user
