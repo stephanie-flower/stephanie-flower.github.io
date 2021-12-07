@@ -1,74 +1,126 @@
-
 body {
-    padding-top: 2%;
-    padding-left: 30%;
-}
-
-.std-text {
-    font-family: 'Source Sans Pro', sans-serif;
+	background: rgb(156,252,174);
+	background: linear-gradient(90deg, rgba(156,252,174,1) 0%, rgba(139,247,245,1) 32%, rgba(249,171,249,1) 68%, rgba(245,244,170,1) 100%);
+	max-width: 100%;
+    overflow-x: hidden;
+    font-family: 'Source Code Pro', monospace;
     font-weight: 400;
 }
 
-.demo-box {
-    padding: 20px;
-    margin: 20px;
-    border: solid 1px gray;
-    width: fit-content;
-    display: flex;
-    flex-direction: row;
+.mainbox {
+	display: none;
+	position: absolute;
+	background-color: #EEF2F5;
+	padding: 4px;
+	border-bottom: solid 2px #808080;
+	border-right: solid 2px #808080;
+	border-top: solid 2px #FEFFFF;
+	border-left: solid 2px #FEFFFF;
+	box-shadow: 2px 2px #010101;
+	max-width: 60%;
+	min-width: 20%;
 }
 
-.checkbox {
-    cursor: pointer;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    padding-left: 10px;
+.content {
+	padding: 10px;
 }
 
-.checkbox:hover{
-    background-color: rgb(220,231,247);
+.topbar {
+	display: flex;
+	flex-direction: row;
+	background: rgb(78,150,241);
+	background: linear-gradient(90deg, rgba(78,150,241,1) 0%, rgba(197,227,255,1) 100%);
+	padding: 5px;
+	font-size: 1.5rem;
+	color: white;
 }
 
-.step {
-    padding: 14px;
+.buttons {
+	margin-left: auto;
+	display: flex;
+	flex-direction: row;
+	cursor: pointer;
 }
 
-.help-icons {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    justify-content: center;
-    border-right: solid 1px gray;
+.topbarButton {
+	background-color: #EEF2F5;
+	padding: 4px;
+	border-bottom: solid 2px #808080;
+	border-right: solid 2px #808080;
+	border-top: solid 2px #FEFFFF;
+	border-left: solid 2px #FEFFFF;
+	box-shadow: 2px 2px #010101;
+	width: 16px;
+	font-size: 1rem;
+	color: black;
 }
 
-.help-icons-img img{
-    width: 1.5vw;
-    height: auto;
-    padding: 4px;
-    cursor: pointer;
+.icon {
+	display: block;
+	margin-left: 20px;
+	margin-top: 20px;
 }
 
-.tooltip {
-    font-family: 'Source Sans Pro', sans-serif;
-    visibility: hidden;
-    width: 120px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    padding: 10px ;
-    border-radius: 6px;
-    position: absolute;
-    z-index: 1;
+.taskbar {
+	position: absolute;
+	background-color: #EEF2F5;
+	border-bottom: solid 2px #808080;
+	border-right: solid 2px #808080;
+	border-top: solid 2px #FEFFFF;
+	border-left: solid 2px #FEFFFF;
+	bottom: 0;
+	left: 0;
+	width: 99.8%;
+	height: 2vw;
+	display: flex;
+	flex-direction: row;
+	font-size: 1.25vw;
 }
 
-.help-icons-img:hover .tooltip {
-    visibility: visible;
+.startButton {
+	border-bottom: solid 2px #808080;
+	border-right: solid 2px #808080;
+	border-top: solid 2px #FEFFFF;
+	border-left: solid 2px #FEFFFF;
 }
 
-.helpful-links {
-    font-family: 'Source Sans Pro', sans-serif;
-    padding: 10px;
-    margin-top: 30px;
-    background-color: lightgray;
-    display: none;
+.taskbarWindow {
+	display: none;
+	border-bottom: solid 2px #808080;
+	border-right: solid 2px #808080;
+	border-top: solid 2px #FEFFFF;
+	border-left: solid 2px #FEFFFF;
+}
+
+.clock {
+	border-bottom: solid 2px #808080;
+	border-right: solid 2px #808080;
+	border-top: solid 2px #FEFFFF;
+	border-left: solid 2px #FEFFFF;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-left: auto;
+}
+
+.desktop {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: fit-content;
+	margin-left: 0px;
+}
+
+.desktopicon {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+	width: fit-content;
+	font-size: 1.5rem;
+	cursor: pointer;
+}
+
+.desktopicon img {
+	height: 4vw;
+	width: auto;
 }
