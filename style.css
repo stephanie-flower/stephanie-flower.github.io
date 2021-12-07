@@ -1,0 +1,126 @@
+body {
+	background: rgb(156,252,174);
+	background: linear-gradient(90deg, rgba(156,252,174,1) 0%, rgba(139,247,245,1) 32%, rgba(249,171,249,1) 68%, rgba(245,244,170,1) 100%);
+	max-width: 100%;
+    overflow-x: hidden;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 400;
+}
+
+.mainbox {
+	display: none;
+	position: absolute;
+	background-color: #EEF2F5;
+	padding: 4px;
+	border-bottom: solid 2px #808080;
+	border-right: solid 2px #808080;
+	border-top: solid 2px #FEFFFF;
+	border-left: solid 2px #FEFFFF;
+	box-shadow: 2px 2px #010101;
+	max-width: 60%;
+	min-width: 20%;
+}
+
+.content {
+	padding: 10px;
+}
+
+.topbar {
+	display: flex;
+	flex-direction: row;
+	background: rgb(78,150,241);
+	background: linear-gradient(90deg, rgba(78,150,241,1) 0%, rgba(197,227,255,1) 100%);
+	padding: 5px;
+	font-size: 1.5rem;
+	color: white;
+}
+
+.buttons {
+	margin-left: auto;
+	display: flex;
+	flex-direction: row;
+	cursor: pointer;
+}
+
+.topbarButton {
+	background-color: #EEF2F5;
+	padding: 4px;
+	border-bottom: solid 2px #808080;
+	border-right: solid 2px #808080;
+	border-top: solid 2px #FEFFFF;
+	border-left: solid 2px #FEFFFF;
+	box-shadow: 2px 2px #010101;
+	width: 16px;
+	font-size: 1rem;
+	color: black;
+}
+
+.icon {
+	display: block;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.taskbar {
+	position: absolute;
+	background-color: #EEF2F5;
+	border-bottom: solid 2px #808080;
+	border-right: solid 2px #808080;
+	border-top: solid 2px #FEFFFF;
+	border-left: solid 2px #FEFFFF;
+	bottom: 0;
+	left: 0;
+	width: 99.8%;
+	height: 2vw;
+	display: flex;
+	flex-direction: row;
+	font-size: 1.25vw;
+}
+
+.startButton {
+	border-bottom: solid 2px #808080;
+	border-right: solid 2px #808080;
+	border-top: solid 2px #FEFFFF;
+	border-left: solid 2px #FEFFFF;
+}
+
+.taskbarWindow {
+	display: none;
+	border-bottom: solid 2px #808080;
+	border-right: solid 2px #808080;
+	border-top: solid 2px #FEFFFF;
+	border-left: solid 2px #FEFFFF;
+}
+
+.clock {
+	border-bottom: solid 2px #808080;
+	border-right: solid 2px #808080;
+	border-top: solid 2px #FEFFFF;
+	border-left: solid 2px #FEFFFF;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-left: auto;
+}
+
+.desktop {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: fit-content;
+	margin-left: 0px;
+}
+
+.desktopicon {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+	width: fit-content;
+	font-size: 1.5rem;
+	cursor: pointer;
+}
+
+.desktopicon img {
+	height: 4vw;
+	width: auto;
+}
