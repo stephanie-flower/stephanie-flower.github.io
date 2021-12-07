@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     dragElement(document.getElementById("skillsbox"));
     dragElement(document.getElementById("projectsbox"));
     dragElement(document.getElementById("contactmebox"));
-    getCurrentTime();
+    setInterval(getCurrentTime, 1000);
 });
 
 function showWindow(window) {
