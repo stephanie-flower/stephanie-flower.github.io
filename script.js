@@ -10,10 +10,12 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
 function showWindow(window) {
   document.getElementById(window).style.display = "block";
+  document.getElementById(window + "Taskbar").style.display = "block";
 }
 
 function hideWindow(window) {
   document.getElementById(window).style.display = "none";
+  document.getElementById(window + "Taskbar").style.display = "none";
 }
 
 function dragElement(elmnt) {

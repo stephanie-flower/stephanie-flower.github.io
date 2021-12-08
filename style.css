@@ -82,14 +82,22 @@ body {
 	border-right: solid 2px #808080;
 	border-top: solid 2px #FEFFFF;
 	border-left: solid 2px #FEFFFF;
+	padding: 4px;
+}
+
+.startButton img {
+	height: 1vw;
+	width: auto;
 }
 
 .taskbarWindow {
 	display: none;
+	background-color: #ffffff;
 	border-bottom: solid 2px #808080;
 	border-right: solid 2px #808080;
 	border-top: solid 2px #FEFFFF;
 	border-left: solid 2px #FEFFFF;
+	padding: 4px;
 }
 
 .clock {
