@@ -132,3 +132,15 @@ body {
 	height: 4vw;
 	width: auto;
 }
+
+.windowContainer {
+	background: rgb(175,211,255);
+	background: linear-gradient(90deg, rgba(175,211,255,1) 0%, rgba(255,255,255,1) 16%);
+	border-bottom: solid 2px #c0c0c0;
+	border-right: solid 2px #c0c0c0;
+	margin: 4px;
+}
+
+.fileExplorer {
+	
+}
