@@ -54,6 +54,6 @@ function dragElement(elmnt) {
 
 function getCurrentTime() {
   var now = new Date();
-  var time = now.getHours() + ":" + now.getMinutes().padStart(2, 0);
+  var time = now.getHours() + ":" + now.getMinutes().toString().padStart(2, 0);
   document.getElementById('clock').innerHTML = time;
 }
