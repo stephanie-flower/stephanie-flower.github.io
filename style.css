@@ -83,12 +83,23 @@ body {
 	border-top: solid 2px #FEFFFF;
 	border-left: solid 2px #FEFFFF;
 	padding: 4px;
+	cursor: pointer;
 }
 
 .startButton img {
 	height: 1vw;
 	width: auto;
 }
+
+.startmenu {
+	display: none;
+	background-color: #EEF2F5;
+	height: 40%;
+	width: 20%;
+	bottom: 0;
+	left: 0;
+	position: absolute;
+} 
 
 .taskbarWindow {
 	display: none;
@@ -98,6 +109,7 @@ body {
 	border-top: solid 2px #FEFFFF;
 	border-left: solid 2px #FEFFFF;
 	padding: 4px;
+	cursor: pointer;
 }
 
 .clock {

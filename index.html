@@ -13,7 +13,7 @@
 <body>
 
 	<div class="mainbox" id="mainbox"><div class="topbar" id="mainboxheader">Properties
-		<div class="buttons"><div class="topbarButton">_</div>
+		<div class="buttons"><div class="topbarButton" onclick="minimise('mainbox')">_</div>
 		<div class="topbarButton">□</div>
 		<div class="topbarButton" onclick="hideWindow('mainbox')">X</div></div></div>	
 		
@@ -27,7 +27,7 @@
 	</div>
 
 	<div class="mainbox" id="skillsbox"><div class="topbar" id="skillsboxheader">Skills
-		<div class="buttons"><div class="topbarButton">_</div>
+		<div class="buttons"><div class="topbarButton" onclick="minimise('skillsbox')">_</div>
 		<div class="topbarButton">□</div>
 		<div class="topbarButton" onclick="hideWindow('skillsbox')">X</div></div></div>	
 		
@@ -55,7 +55,7 @@
 	</div>
 
 	<div class="mainbox" id="projectsbox"><div class="topbar" id="projectsboxheader">Projects
-		<div class="buttons"><div class="topbarButton">_</div>
+		<div class="buttons"><div class="topbarButton" onclick="minimise('projectsbox')">_</div>
 		<div class="topbarButton">□</div>
 		<div class="topbarButton" onclick="hideWindow('projectsbox')">X</div></div></div>	
 		
@@ -73,7 +73,7 @@
 	</div>
 
 	<div class="mainbox" id="contactmebox"><div class="topbar" id="mainboxheader">Contact
-		<div class="buttons"><div class="topbarButton">_</div>
+		<div class="buttons"><div class="topbarButton" onclick="minimise('contactmebox')">_</div>
 		<div class="topbarButton">□</div>
 		<div class="topbarButton" onclick="hideWindow('contactmebox')">X</div></div></div>	
 		
@@ -94,12 +94,14 @@
 	<div class="desktopicon" id="contactme" onclick="showWindow('contactmebox')"><img src="contact.png">Contact</div>
 	</div>
 
+	<div class="startmenu" id="startMenu">start</div>
+
 	<div class="taskbar">
 		<div class="startButton"> <img src="start.png"> Start </div>
-		<div class="taskbarWindow" id="mainboxTaskbar">Properties</div>
-		<div class="taskbarWindow" id="skillsboxTaskbar">Skills</div>
-		<div class="taskbarWindow" id="projectsboxTaskbar">Projects</div>
-		<div class="taskbarWindow" id="contactmeboxTaskbar">Contact</div>
+		<div class="taskbarWindow" id="mainboxTaskbar" onclick="maximise('mainbox')">Properties</div>
+		<div class="taskbarWindow" id="skillsboxTaskbar" onclick="maximise('skillsbox')">Skills</div>
+		<div class="taskbarWindow" id="projectsboxTaskbar" onclick="maximise('projectsbox')">Projects</div>
+		<div class="taskbarWindow" id="contactmeboxTaskbar" onclick="maximise('contactmebox')">Contact</div>
 		<div class="clock" id="clock"> </div>
 	</div>
 

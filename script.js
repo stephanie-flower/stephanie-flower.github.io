@@ -18,6 +18,18 @@ function hideWindow(window) {
   document.getElementById(window + "Taskbar").style.display = "none";
 }
 
+function minimise(window) {
+  document.getElementById(window).style.display = "none";
+}
+
+function maximise(window) {
+  document.getElementById(window).style.display = "block";
+}
+
+function startMenu() {
+  document.getElementById('startMenu').style.display = "block";
+}
+
 function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
   if (document.getElementById(elmnt.id + "header")) {
