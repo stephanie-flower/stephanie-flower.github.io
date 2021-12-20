@@ -27,7 +27,13 @@ function maximise(window) {
 }
 
 function startMenu() {
-  document.getElementById('startMenu').style.display = "block";
+  var element = document.getElementById('startMenu');
+  if (element.style.display == "none"){
+    element.style.display = "block";
+  } else {
+    element.style.display = "none";
+  }
+
 }
 
 function dragElement(elmnt) {

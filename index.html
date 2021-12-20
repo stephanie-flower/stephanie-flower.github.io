@@ -49,7 +49,8 @@
 			Other Skills: <br>
 			• Test-driven development <br>
 			• Linear algebra <br>
-			• Algorithms, graphs & complexity
+			• Algorithms, graphs & complexity <br>
+			• Illustration & Spritework
 		</div>
 
 	</div>
@@ -94,10 +95,20 @@
 	<div class="desktopicon" id="contactme" onclick="showWindow('contactmebox')"><img src="contact.png">Contact</div>
 	</div>
 
-	<div class="startmenu" id="startMenu">start</div>
+	<div class="startmenu" id="startMenu" style="display: none;">
+		<a href="https://drive.google.com/file/d/14GPKy7MURcHzuRbe_VcPOsP8t2bT-zvy/view?usp=sharing" target="_blank"><div class="startmenuItem">
+			Download icons
+		</div></a>
+		<a href="https://www.instagram.com/artby.chari/" target="_blank"><div class="startmenuItem">
+			My Artwork
+		</div></a>
+		<a href="https://ko-fi.com/chariart"><div class="startmenuItem">
+			Ko-fi
+		</div></a>
+	</div>
 
 	<div class="taskbar">
-		<div class="startButton"> <img src="start.png"> Start </div>
+		<div class="startButton" onclick="startMenu()"> <img src="start.png"> Start </div>
 		<div class="taskbarWindow" id="mainboxTaskbar" onclick="maximise('mainbox')">Properties</div>
 		<div class="taskbarWindow" id="skillsboxTaskbar" onclick="maximise('skillsbox')">Skills</div>
 		<div class="taskbarWindow" id="projectsboxTaskbar" onclick="maximise('projectsbox')">Projects</div>
