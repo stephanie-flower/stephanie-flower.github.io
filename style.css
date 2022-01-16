@@ -177,6 +177,31 @@ a {
 	margin: 4px;
 }
 
-.fileExplorer {
-	
+@media (max-width: 768px){
+	.mainbox {
+		display: block;
+		position: relative;
+		margin: 20px;
+		left: 2%;
+		max-width: 85%;
+		font-size: 3vw;
+	}
+
+	.topbar {
+		font-size: 3vw;
+	}
+
+	.desktopicon {
+		display: none;
+	}
+
+	.taskbar {
+		display: none;
+	}
+
+	.topbarButton {
+		width: 2vw;
+		height: 2vw;
+		font-size: 2vw;
+	}
 }
