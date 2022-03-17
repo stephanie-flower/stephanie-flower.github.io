@@ -1,10 +1,9 @@
-
+const draggableElements = ["mainbox", "skillsbox", "projectsbox", "contactmebox"]
 
 document.addEventListener("DOMContentLoaded", function(event) {
-    dragElement(document.getElementById("mainbox"));
-    dragElement(document.getElementById("skillsbox"));
-    dragElement(document.getElementById("projectsbox"));
-    dragElement(document.getElementById("contactmebox"));
+    for(let i=0; i<draggableElements.length; i++) {
+      dragElement(document.getElementById(draggableElements[i]));
+    }
     setInterval(getCurrentTime, 1000);
 });
 
