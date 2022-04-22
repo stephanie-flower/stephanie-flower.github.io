@@ -177,6 +177,21 @@ a {
 	margin: 4px;
 }
 
+.properties {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.properties img {
+	width: 20%;
+	padding: 20px;
+}
+
+.txt {
+	padding: 20px;
+}
+
 @media (max-width: 768px){
 	.mainbox {
 		display: block;
