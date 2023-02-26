@@ -167,6 +167,9 @@ a {
 .desktopicon img {
 	height: 4vw;
 	width: auto;
+	image-rendering: pixelated;
+	min-height: 4vw;
+	min-width: 4vw;
 }
 
 .windowContainer {
