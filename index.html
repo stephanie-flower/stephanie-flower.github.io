@@ -1,141 +1,15 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width">
-	<title>Stephanie Flower</title>
-	<link rel="icon" href="favicon.png">
-	<link rel="stylesheet" href="style.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600&display=swap" rel="stylesheet">	
-	<script type="text/javascript" src="script.js"></script>
-</head>
-<body>
-<!-- why isnt this updating on the web? -->
-	<div class="mainbox" id="mainbox"><div class="topbar" id="mainboxheader">System Properties
-		<div class="buttons"><div class="topbarButton" onclick="minimise('mainbox')">_</div>
-		<div class="topbarButton">□</div>
-		<div class="topbarButton" onclick="hideWindow('mainbox')">X</div></div></div>	
-		
-		<div class="content">
-			<div class="properties">
-				<img src="pc.png">
-				<div class="txt">
-					System: <br>
-					&nbsp; Stephanie Flower <br>
-					&nbsp; 20.05.2000 <br>
-					<br>
-					Registered to: <br>
-					&nbsp; Royal Holloway, University of London <br>
-					&nbsp; BSc Computer Science and Mathematics with a Placement Year <br>
-					&nbsp; Programming - Illustration - Design - Mathematics <br>
-					<br>
-					Hi, I'm Steph! I love programming, mathematics, videogame modding, illustration, aviation and motorsport. <br>
-					Thanks for checking out my website :)
-				</div>
-			</div>
-		</div>
-
-	</div>
-
-	<div class="mainbox" id="skillsbox"><div class="topbar" id="skillsboxheader">Skills
-		<div class="buttons"><div class="topbarButton" onclick="minimise('skillsbox')">_</div>
-		<div class="topbarButton">□</div>
-		<div class="topbarButton" onclick="hideWindow('skillsbox')">X</div></div></div>	
-		
-		<div class="content">
-			Languages:<br>
-			• Python <br>
-			• HTML / CSS / JavaScript / TypeScript <br>
-			• C# <br>
-			• Java <br>
-			 <br> <br>
-			Tech:<br>
-			• Web frameworks such as React, Django, & Express.js <br>
-			• Git/SVN <br>
-			• Android development in Android Studio <br>
-			• Unity in 2D and 3D <br>
-			 <br> <br>
-			Other Skills: <br>
-			• Test-driven development, UML diagrams <br>
-			• Linear algebra, including applicable knowledge of vectors and matrices to 3D spaces <br>
-			• Algorithms, graphs & complexity <br>
-			• Calculus, including systems of differential equations & multi-variable calculus <br>
-			• Illustration, graphic design & spritework <br>
-		</div>
-
-	</div>
-
-	<div class="mainbox" id="projectsbox"><div class="topbar" id="projectsboxheader">Projects
-		<div class="buttons"><div class="topbarButton" onclick="minimise('projectsbox')">_</div>
-		<div class="topbarButton">□</div>
-		<div class="topbarButton" onclick="hideWindow('projectsbox')">X</div></div></div>	
-		
-		<div class="content">
-			• <strong>Untitled Final Year University Project</strong> &nbsp; <br>
-			&nbsp; A real-time, entirely peer-to-peer messaging & video calling application. <br> <br>
-
-			• <strong>ChariOS</strong> &nbsp; <a href="https://github.com/stephanie-flower/chariOS"> <u>Link</u> </a> <br>
-			&nbsp; A React component library to build classic Windows-style webpages. TypeScript, React <br> <br>
-
-			• <strong>Swordle</strong> &nbsp; <a href="https://devpost.com/software/swordle"> <u>Link</u> </a> <br>
-			&nbsp; 2nd place winner at  the Royal Hackaway v5 hackathon. A real-time multiplayer word-guessing game. HTML/CSS/JavaScript, Django/Redis <br> <br>
-
-			• <strong> currently unavailable, under development </strong> Royal Holloway Anime Society Website &nbsp; <a href="https://rhulani.me/"> <u>Link</u> </a> <br>
-			&nbsp; React, TypeScript <br> <br>
-
-			• <strong>Oaxaca Restaurant Web Application</strong> &nbsp; <a href="https://www.youtube.com/watch?v=XzmahPV_83M"> <u>Link</u> </a> <br>
-			&nbsp; 2nd year project in an agile environment. Django, HTML/CSS, JQuery <br> <br>
-
-			More to come!
-
-		</div>
-
-	</div>
-
-	<div class="mainbox" id="contactmebox"><div class="topbar" id="mainboxheader">Contact
-		<div class="buttons"><div class="topbarButton" onclick="minimise('contactmebox')">_</div>
-		<div class="topbarButton">□</div>
-		<div class="topbarButton" onclick="hideWindow('contactmebox')">X</div></div></div>	
-		
-		<div class="windowContainer">
-			<div class="content">
-				<a href="https://twitter.com/charisteph" target="_blank"> Twitter </a> <br>
-				<a href="https://www.linkedin.com/in/stephanie-flower-099478178/" target="_blank"> LinkedIn </a> <br>
-				<a href="https://github.com/stephanie-flower" target="_blank"> GitHub </a>
-			</div>
-		</div>
-	</div>
-
-
-	<div class="desktop">
-	<div class="desktopicon" id="aboutme" onclick="showWindow('mainbox')"><img src="about.png">About Me</div>
-	<div class="desktopicon" id="skills" onclick="showWindow('skillsbox')"><img src="skills.png">Skills</div>
-	<div class="desktopicon" id="projects" onclick="showWindow('projectsbox')"><img src="projects.png">Projects</div>
-	<div class="desktopicon" id="contactme" onclick="showWindow('contactmebox')"><img src="contact.png">Contact</div>
-	</div>
-
-	<div class="startmenu" id="startMenu" style="display: none;">
-		<a href="https://drive.google.com/file/d/14GPKy7MURcHzuRbe_VcPOsP8t2bT-zvy/view?usp=sharing" target="_blank"><div class="startmenuItem">
-			Download icons
-		</div></a>
-		<a href="https://www.instagram.com/artby.chari/" target="_blank"><div class="startmenuItem">
-			My Artwork
-		</div></a>
-		<a href="https://ko-fi.com/chariart"><div class="startmenuItem">
-			Ko-fi
-		</div></a>
-	</div>
-
-	<div class="taskbar">
-		<div class="startButton" onclick="startMenu()"> <img src="start.png"> Start </div>
-		<div class="taskbarWindow" id="mainboxTaskbar" onclick="maximise('mainbox')">Properties</div>
-		<div class="taskbarWindow" id="skillsboxTaskbar" onclick="maximise('skillsbox')">Skills</div>
-		<div class="taskbarWindow" id="projectsboxTaskbar" onclick="maximise('projectsbox')">Projects</div>
-		<div class="taskbarWindow" id="contactmeboxTaskbar" onclick="maximise('contactmebox')">Contact</div>
-		<div class="clock" id="clock"> </div>
-	</div>
-
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="./favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stephanie Flower</title>
+    <script type="module" crossorigin src="./assets/index-25f12332.js"></script>
+    <link rel="stylesheet" href="./assets/index-d6917070.css">
+  </head>
+  <body>
+    <div id="app"></div>
+    
+  </body>
 </html>
